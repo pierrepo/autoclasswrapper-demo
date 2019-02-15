@@ -1,0 +1,7 @@
+name: jupyter-env
+dependencies:
+  - python>=3.6
+  - pip
+  - pip:
+    autoclasswrapper
+
