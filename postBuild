@@ -2,10 +2,10 @@
 
 # for 64-bit operating system,
 # install the standard 32-bit C libraries:
-apt-get install -y libc6-i386
+# apt-get install -y libc6-i386
+# see apt.txt
 
 # install AutoClass C
-wget https://ti.arc.nasa.gov/m/project/autoclass/autoclass-c-3-3-6.tar.gz
 tar zxvf autoclass-c-3-3-6.tar.gz
 rm -f autoclass-c-3-3-6.tar.gz
 export PATH=$PATH:$(pwd)/autoclass-c
